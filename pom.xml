@@ -7,6 +7,7 @@
   </parent>
   <groupId>com.programming.ninja</groupId>
   <artifactId>spring-data-rest-angular</artifactId>
+  <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>Spring Data Rest + AngularJS</name>
   <description>This project uses spring data rest for CRUD operations</description>
@@ -34,6 +35,10 @@
        <plugin>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
+       </plugin>
+       <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
        </plugin>
      </plugins>
   </build>
